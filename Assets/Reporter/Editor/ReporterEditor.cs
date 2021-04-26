@@ -6,7 +6,7 @@ namespace MVCReporter.Editor
 {
     public class ReporterEditor : UnityEditor.Editor
     {
-        [MenuItem("ProjectUtility/Tools/Reporter/Create")]
+        [MenuItem("Tools/Reporter/Create")]
         public static void CreateReporter()
         {
             const int ReporterExecOrder = -12000;
